@@ -5,5 +5,15 @@
     <string name="action_settings">Settings</string>
     <string name="distanceLBLTXT">Distance:</string>
     <string name="distanceTXTF">0.0</string>
+    <string name="linkAmpLBLTXT">Link Amps:</string>
+    <string-array name="linkAmpSPNRL">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+    <string name="aplLBLTXT">APL:</string>
+    <string name="calcBTNTXT">Calculate</string>
 
 </resources>

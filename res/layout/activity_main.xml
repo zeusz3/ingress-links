@@ -20,7 +20,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <EditText
-        android:id="@+id/distanceTXTF"
+        android:id="@+id/distanceETXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/distanceLBL"
@@ -32,5 +32,54 @@
 
         <requestFocus />
     </EditText>
+
+    <TextView
+        android:id="@+id/linkAmpLBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/distanceLBL"
+        android:layout_below="@+id/distanceETXT"
+        android:layout_marginTop="29dp"
+        android:text="@string/linkAmpLBLTXT"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <TextView
+         android:id="@+id/aplLBL"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/linkAmpLBL"
+         android:layout_below="@+id/linkAmpLBL"
+         android:layout_marginTop="26dp"
+         android:text="@string/aplLBLTXT"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <Spinner
+         android:id="@+id/linkAmpSPNR"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/linkAmpLBL"
+         android:layout_alignBottom="@+id/linkAmpLBL"
+         android:layout_alignLeft="@+id/distanceETXT"
+         android:entries="@array/linkAmpSPNRL"
+         tools:listitem="@android:layout/simple_spinner_item" />
+
+     <EditText
+         android:id="@+id/aplETXT"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/aplLBL"
+         android:layout_alignBottom="@+id/aplLBL"
+         android:layout_alignLeft="@+id/linkAmpSPNR"
+         android:ems="10"
+         android:inputType="numberDecimal" />
+
+     <Button
+         android:id="@+id/calcBTN"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/aplETXT"
+         android:layout_below="@+id/aplETXT"
+         android:layout_marginTop="20dp"
+         android:text="@string/calcBTNTXT" />
 
 </RelativeLayout>
