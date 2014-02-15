@@ -80,6 +80,7 @@
          android:layout_alignRight="@+id/aplETXT"
          android:layout_below="@+id/aplETXT"
          android:layout_marginTop="20dp"
+         android:onClick="calculate"
          android:text="@string/calcBTNTXT" />
 
 </RelativeLayout>
