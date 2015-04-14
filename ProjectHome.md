@@ -1,0 +1,1 @@
+calculate the number of agents and link amps required for a link, or the distance according to the available agents and mods
